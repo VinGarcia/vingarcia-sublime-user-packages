@@ -1,0 +1,16 @@
+{
+	"color_scheme": "Packages/Color Scheme - Default/Dawn.tmTheme",
+	"dictionary": "Packages/Dictionaries/Portuguese (Brazilian).dic",
+	"font_size": 9,
+	"ignored_packages":
+	[
+		"vintage"
+	],
+	"ignored_words":
+	[
+		"splitted"
+	],
+	"tab_size": 2,
+	"translate_tabs_to_spaces": true,
+	"vintage_start_in_command_mode": true
+}

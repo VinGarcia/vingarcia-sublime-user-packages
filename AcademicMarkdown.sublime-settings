@@ -1,0 +1,10 @@
+{
+  "spell_check": true,
+  //"dictionary": "Packages/Language - English/en_US.dic",
+  //"dictionary": "Packages/Language - Portuguese (Brazilian).dic",
+  "draw_centered": true,
+  "extensions":["md"],
+  "rulers":[],
+  "word_wrap": true,
+  "wrap_width": 90
+} 

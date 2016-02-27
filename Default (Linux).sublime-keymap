@@ -1,0 +1,23 @@
+[
+  { "keys": ["ctrl+f1"], "command": "show_panel", "args": {"panel": "console", "toggle": true} },
+  { "keys": ["ctrl+r"], "command": "build", "args": {"variant": "Run"} },
+  { "keys": ["alt+r"], "command": "build", "args": {"variant": "Safe"} },
+  { "keys": ["alt+c"], "command": "build", "args": {"variant": "Clean"} },
+  { "keys": ["ctrl+tab"], "command": "next_view" },
+  { "keys": ["ctrl+shift+tab"], "command": "prev_view" },
+
+  { "keys": ["ctrl+shift+space"], "command": "hide_auto_complete", "context":
+    [
+          { "key": "auto_complete_visible", "operator": "equal", "operand": true }
+    ]
+  },
+  { "keys": ["ctrl+t"], "command": "trim_file" },
+  { "keys": ["escape"], "command": "exit_auto_complete_and_insert_mode", "context":
+    [
+      { "key": "auto_complete_visible", "operator": "equal", "operand": true }
+    ]
+  }
+]
+
+
+
